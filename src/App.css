@@ -1,0 +1,71 @@
+.level .level-item {
+    margin-bottom: 150px !important;
+  }
+
+  body{
+    background: rgb(37,141,204);
+    background: linear-gradient(141deg, rgba(37,141,204,1) 20%, rgba(111,175,219,1) 68%, rgba(177,209,228,1) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 120vh;
+}
+
+.rows{
+    display: flex;
+    flex-direction: column;
+}
+#table{
+    background: rgb(37,141,204);
+    background: linear-gradient(141deg, rgba(37,141,204,1) 20%, rgba(111,175,219,1) 68%, rgba(177,209,228,1) 100%);
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+}
+#table1{
+    background: transparent;
+    height: 100vh;
+    position: absolute;
+    left: 20vh;
+}
+.clol{
+    position: absolute;
+    right: 145vh;
+    top: 53vh;
+    width:450px;
+    
+}
+.clolText{
+    font-size: 154px !important;
+    color: rgba(255, 255, 255, 0.685);
+}
+#imagelol{
+    position: absolute;
+    right: 100vh;
+    top: 50vh;
+    width:500px;
+}
+
+#image{
+    width:300px;
+}
+#countryName{
+    position: absolute;
+    right: 50vh !important;
+    top: 52vh;
+    width:900px;
+}
+.countryText{
+    font-size: 150px !important;
+    color: rgba(255, 255, 255, 0.685);
+}
+
+#info{
+    position: absolute;
+    right: 90vh;
+    top: 49vh;
+    width:700px;
+}
+.infoText{
+    font-size: 40px !important;
+    color: rgba(255, 255, 255, 0.685);
+}
